@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <title>Phase1</title>
+        <link rel="stylesheet" href="bootstrap-4.0.0/dist/css/bootstrap.min.css">
+        <style>
+                .container-url{
+                    background-image: url('n.jpg');
+                    width: 100%;
+                    height: 500px;
+                    background-repeat:no-repeat;
+                    background-position: center;
+                    background-size: cover; 
+                }
+                h1{
+                    text-align: center;
+                    color: #1A3F4E;
+                    font-family: 'Courier New', Courier, monospace;
+                    font-weight: bold;
+                    font-size: 50px; 
+                }
+                #container{    
+                    background-color: #82838C  ;
+                    padding: 10px;
+                }
+                .big{
+                    display: flex;
+                /*
+                    height: 600px;
+                    width: 100%;*/
+                   /* box-sizing: border-box;
+                   */   
+                }
+                .small{
+                    display: flex;
+                    flex-direction: row;
+                    margin: 25px;
+                    border: black solid 1px;
+                    
+                }
+                img{
+                    height: 200px;
+                    width: 450px;
+                  /*  border-radius: 50%;*/
+                }
+                #par1{
+                    text-align:center ;
+                }
+                #par2{
+                    text-align: center;
+                }
+                #par3{
+                    font-size: 13px;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    font-weight: bold;
+                    margin: 3px;
+                    padding-left: 5px;
+                } 
+                #par4{
+                  font-size: 13px;
+                  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                  font-weight: bold;
+                  margin: 3px;
+                  padding-left: 5px;
+                  padding-bottom: 5px;
+              }
+                
+                #internal{
+                    background-color: #D8C39C;
+                    border: 1px solid black ;
+                    margin: 5px;
+                    padding: 5px;
+                }
+                #span1{
+                    font-weight: bold;
+                    font-size: 20px;
+                }
+                .btns{
+                    padding: 3px;
+                    color: red;
+                }
+                .date{
+                    background-color: #fff;
+                }
+                #div1{
+                    border: 3px solid white;
+                    background-color: #D8C39C;
+                    padding: 3px;   
+                }
+            </style>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div id="container">          
+            <div class="container-url">
+            </div>
+            <div id="internal">
+                <p id="par1">بيت الحياه</p>            
+                <p id="par1">التعليم مش بس اللي بندرسه في الجامعة</p>
+            </div>
+        </div>
+    <div id="container">
+        <h1>الفلاسفة</h1>
+        <div class="big">
+            <div class="small">   
+                <div class="img">
+                    <img src="1.jpg">
+                </div>
+                <div class="date">
+                    <p id="par2"><span id="span1">ماو تسي تونغ</span></p>
+                    <div id="div1">
+                    <p id="par3">الميلاد : 1893 </p>
+                    <p id="par4">الوفاة : 1976</p>
+                </div>
+                <br/><br/>
+                <div class="btns">
+                    <button type="button" class="btn btn-dark">Read more</button>
+                </div>
+                </div>
+            </div>
+            <div class="small">   
+                <div class="img">
+                    <img src="2.jpg">
+                </div>
+                <div class="date">
+                    <p id="par2"><span id="span1">غوتاما بودا</span></p>
+                <div id="div1">
+                    <p id="par3">الميلاد :563 ق.م </p>
+                    <p id="par4"> الوفاة: 483 ق.م</p>
+                </div>
+                <br/><br/>
+                <div class="btns">
+                    <button type="button" class="btn btn-dark">Read more</button>
+                </div>
+                </div>
+            </div>
+            </div>
+            <div class="big">
+                <div class="small">   
+                        <div class="img">
+                            <img src="ابو الفرج بن الطيب.jpg">
+                        </div>
+                        <div class="date">
+                            <p id="par2"><span id="span1">ابو الفرج بن الطيب</span></p>
+                        <div id="div1">
+                            <p id="par3">الميلاد: 980م </p>
+                            <p id="par4">الوفاة : 1043م </p>
+                        </div>
+                        <br/><br/>
+                        <div class="btns">
+                            <button type="button" class="btn btn-dark">Read more</button>
+                        </div>
+                        </div>
+                </div>
+                <div class="small">   
+                    <div class="img">
+                        <img src="4.jpg">
+                    </div>
+                    <div class="date">
+                        <p id="par2"><span id="span1">الغورو ناناك</span></p>
+                    <div id="div1">
+                        <p id="par3">الميلاد: 15 أبريل 1469 </p>
+                        <p id="par4">الوفاة: 22 سبتمبر 1539 </p>
+                    </div>
+                    <br/><br/>
+                    <div class="btns">
+                        <button type="button" class="btn btn-dark">Read more</button>
+                    </div>
+                    </div>
+            </div>
+            </div>
+            
+            <div class="big">
+                <div class="small">   
+                        <div class="img">
+                            <img src="5.jpg">
+                        </div>
+                        <div class="date">
+                            <p id="par2"><span id="span1">يانج زهو</span></p>
+                        <div id="div1">
+                            <p id="par3"> الميلاد: 440 ق.م </p>
+                            <p id="par4">الوفاة: 360 ق.م  </p>
+                        </div>
+                        <br/><br/>
+                        <div class="btns">
+                            <button type="button" class="btn btn-dark">Read more</button>
+                        </div>
+                        </div>
+                </div>
+                <div class="small">   
+                    <div class="img">
+                        <img src="6.jpg">
+                    </div>
+                    <div class="date">
+                        <p id="par2"><span id="span1"> مهاتما غاندى</span></p>
+                    <div id="div1">
+                        <p id="par3"> الميلاد : 2 أكتوبر 1869 </p>
+                        <p id="par4">الوفاة: 22 سبتمبر 1539 </p>
+                    </div>
+                    <br/><br/>
+                    <div class="btns">
+                        <button type="button" class="btn btn-dark">Read more</button>
+                    </div>
+                    </div>
+            </div>
+            </div>
+            
+            <div class="big">
+                <div class="small">   
+                        <div class="img">
+                            <img src="7.jpg">
+                        </div>
+                        <div class="date">
+                            <p id="par2"><span id="span1">أشوكا</span></p>
+                        <div id="div1">
+                            <p id="par3"> ولد عام 304 قبل الميلاد </p>
+                            <p id="par4">    توفى فى عام 232 قبل الميلاد    </p>
+                        </div>
+                        <br/><br/>
+                        <div class="btns">
+                            <button type="button" class="btn btn-dark">Read more</button>
+                        </div>
+                        </div>
+                </div>
+                <div class="small">   
+                    <div class="img">
+                        <img src="8.jpg">
+                    </div>
+                    <div class="date">
+                        <p id="par2"><span id="span1"> جوانغ زي</span></p>
+                    <div id="div1">
+                        <p id="par3">   الميلاد: 370 ق.م     </p>
+                        <p id="par4">          الوفاة: 287 ق.م </p>
+                    </div>
+                    <br/><br/>
+                    <div class="btns">
+                        <button type="button" class="btn btn-dark">Read more</button>
+                    </div>
+                    </div>
+            </div>
+            </div>
+            <div class="big">
+                <div class="small">   
+                        <div class="img">
+                            <img src="9.jpg">
+                        </div>
+                        <div class="date">
+                            <p id="par2"><span id="span1">زاردشت</span></p>
+                        <div id="div1">
+                            <p id="par3"> الميلاد : حوالي 1500-650 قبل الميلاد </p>
+                            <p id="par4">   الوفاة : حوالي 1000-500 قبل الميلاد </p>
+                        </div>
+                        <br/><br/>
+                        <div class="btns">
+                            <button type="button" class="btn btn-dark">Read more</button>
+                        </div>
+                        </div>
+                </div>
+                <div class="small">   
+                    <div class="img">
+                        <img src="10.jpg">
+                    </div>
+                    <div class="date">
+                        <p id="par2"><span id="span1">كونفوشيوس</span></p>
+                    <div id="div1">
+                        <p id="par3">   الميلاد: 551 ق.م     </p>
+                        <p id="par4">          الوفاة: 479 ق.م </p>
+                    </div>
+                    <br/><br/>
+                    <div class="btns">
+                        <button type="button" class="btn btn-dark">Read more</button>
+                    </div>
+                    </div>
+            </div>
+            </div>
+
+            
+            <div class="big">
+                <div class="small">   
+                        <div class="img">
+                            <img src="11.jpg">
+                        </div>
+                        <div class="date">
+                            <p id="par2"><span id="span1">جابر ابن حيان</span></p>
+                        <div id="div1">
+                            <p id="par3"> الميلاد :  721   </p>
+                            <p id="par4">   الوفاة :  815   </p>
+                        </div>
+                        <br/><br/>
+                        <div class="btns">
+                            <button type="button" class="btn btn-dark">Read more</button>
+                        </div>
+                        </div>
+                </div>
+                <div class="small">   
+                    <div class="img">
+                        <img src="12.jpg">
+                    </div>
+                    <div class="date">
+                        <p id="par2"><span id="span1">كريشنامورتي</span></p>
+                    <div id="div1">
+                        <p id="par3">   الميلاد:  1895    </p>
+                        <p id="par4">          الوفاة:  1986 </p>
+                    </div>
+                    <br/><br/>
+                    <div class="btns">
+                        <button type="button" class="btn btn-dark">Read more</button>
+                    </div>
+                    </div>
+            </div>
+            </div>
+            <div class="big">
+                <div class="small">   
+                        <div class="img">
+                            <img src="13.jpg">
+                        </div>
+                        <div class="date">
+                            <p id="par2"><span id="span1"> لاوتزه = لاو تسي </span></p>
+                        <div id="div1">
+                            <p id="par3"> الميلاد :  604 ق.م   </p>
+                            <p id="par4">   الوفاة : 531 ق.م   </p>
+                        </div>
+                        <br/><br/>
+                        <div class="btns">
+                            <button type="button" class="btn btn-dark">Read more</button>
+                        </div>
+                        </div>
+                </div>
+                <div class="small">   
+                    <div class="img">
+                        <img src="14.jpg">
+                    </div>
+                    <div class="date">
+                        <p id="par2"><span id="span1">موزي</span></p>
+                    <div id="div1">
+                        <p id="par3">   الميلاد: 470 ق.م   </p>
+                        <p id="par4">    الوفاة:  391 ق.م </p>
+                    </div>
+                    <br/><br/>
+                    <div class="btns">
+                        <button type="button" class="btn btn-dark">Read more</button>
+                    </div>
+                    </div>
+            </div>
+            </div>
+
+            <div class="big">
+                <div class="small">   
+                        <div class="img">
+                            <img src="15.jpg">
+                        </div>
+                        <div class="date">
+                            <p id="par2"><span id="span1"> وانج يانج مينج </span></p>
+                        <div id="div1">
+                            <p id="par3"> الميلاد :  1472 م    </p>
+                            <p id="par4">   الوفاة : 1529 م    </p>
+                        </div>
+                        <br/><br/>
+                        <div class="btns">
+                            <button type="button" class="btn btn-dark">Read more</button>
+                        </div>
+                        </div>
+                </div>
+                <div class="small">   
+                    <div class="img">
+                        <img src="16.jpg">
+                    </div>
+                    <div class="date">
+                        <p id="par2"><span id="span1">سون تزو</span></p>
+                    <div id="div1">
+                        <p id="par3">   الميلاد: 551 ق.م   </p>
+                        <p id="par4">    الوفاة:  496 ق.م </p>
+                    </div>
+                    <br/><br/>
+                    <div class="btns">
+                        <button type="button" class="btn btn-dark">Read more</button>
+                    </div>
+                    </div>
+            </div>
+            </div>
+
+            <div class="big">
+                <div class="small">   
+                        <div class="img">
+                            <img src="17.jpg">
+                        </div>
+                        <div class="date">
+                            <p id="par2"><span id="span1"> صدر الدين الشيرازي </span></p>
+                        <div id="div1">
+                            <p id="par3"> الميلاد :  1572 م    </p>
+                            <p id="par4">   الوفاة :  1640 م    </p>
+                        </div>
+                        <br/><br/>
+                        <div class="btns">
+                            <button type="button" class="btn btn-dark">Read more</button>
+                        </div>
+                        </div>
+                </div>
+                <div class="small">   
+                    <div class="img">
+                        <img src="18.jpg">
+                    </div>
+                    <div class="date">
+                        <p id="par2"><span id="span1"> اوريجانوس</span></p>
+                    <div id="div1">
+                        <p id="par3">   الميلاد:  185 م   </p>
+                        <p id="par4">    الوفاة:  254 م  </p>
+                    </div>
+                    <br/><br/>
+                    <div class="btns">
+                        <button type="button" class="btn btn-dark">Read more</button>
+                    </div>
+                    </div>
+            </div>
+            </div>
+
+            <div class="big">
+                <div class="small">   
+                        <div class="img">
+                            <img src="19.jpg">
+                        </div>
+                        <div class="date">
+                            <p id="par2"><span id="span1">   إسحاق بن سليمان الإسرائيلي </span></p>
+                        <div id="div1">
+                            <p id="par3"> الميلاد :  850 م    </p>
+                            <p id="par4">   الوفاة :  932 م    </p>
+                        </div>
+                        <br/><br/>
+                        <div class="btns">
+                            <button type="button" class="btn btn-dark">Read more</button>
+                        </div>
+                        </div>
+                </div>
+                <div class="small">   
+                    <div class="img">
+                        <img src="20.jpg">
+                    </div>
+                    <div class="date">
+                        <p id="par2"><span id="span1">  بتاح حتب</span></p>
+                    <div id="div1">
+                        <p id="par3">   الميلاد:   أوائل القرن 24 قبل الميلاد   </p>
+                        <p id="par4">    الوفاة:   أواخر القرن 25 ق. م</p>
+                    </div>
+                    <br/><br/>
+                    <div class="btns">
+                        <button type="button" class="btn btn-dark">Read more</button>
+                    </div>
+                    </div>
+            </div>
+            </div>
+
+            <div class="big">
+                <div class="small">   
+                        <div class="img">
+                            <img src="21.jpg">
+                        </div>
+                        <div class="date">
+                            <p id="par2"><span id="span1">    ابو ألفا الغنيمي التفتازاني   </span></p>
+                        <div id="div1">
+                            <p id="par3"> الميلاد :  1930 م    </p>
+                            <p id="par4">   الوفاة :  1994 م    </p>
+                        </div>
+                        <br/><br/>
+                        <div class="btns">
+                            <button type="button" class="btn btn-dark">Read more</button>
+                        </div>
+                        </div>
+                </div>
+                <div class="small">   
+                    <div class="img">
+                        <img src="22.jpg">
+                    </div>
+                    <div class="date">
+                        <p id="par2"><span id="span1">  رفاعة الطهطاوي</span></p>
+                    <div id="div1">
+                        <p id="par3">   الميلاد:   1801 م       </p>
+                        <p id="par4">    الوفاة : 1873 م </p>
+                    </div>
+                    <br/><br/>
+                    <div class="btns">
+                        <button type="button" class="btn btn-dark">Read more</button>
+                    </div>
+                    </div>
+            </div>
+            </div>
+
+            <div class="big">
+                <div class="small">   
+                        <div class="img">
+                            <img src="23.jpg">
+                        </div>
+                        <div class="date">
+                            <p id="par2"><span id="span1">   أفلوطين   </span></p>
+                        <div id="div1">
+                            <p id="par3"> الميلاد :  205  م    </p>
+                            <p id="par4">   الوفاة :  270 م    </p>
+                        </div>
+                        <br/><br/>
+                        <div class="btns">
+                            <button type="button" class="btn btn-dark">Read more</button>
+                        </div>
+                        </div>
+                </div>
+                <div class="small">   
+                    <div class="img">
+                        <img src="24.jpg">
+                    </div>
+                    <div class="date">
+                        <p id="par2"><span id="span1">  رفاعة الطهطاوي</span></p>
+                    <div id="div1">
+                        <p id="par3">   الميلاد:   1801 م       </p>
+                        <p id="par4">    الوفاة : 1873 م </p>
+                    </div>
+                    <br/><br/>
+                    <div class="btns">
+                        <button type="button" class="btn btn-dark">Read more</button>
+                    </div>
+                    </div>
+            </div>
+            </div>
+
+    </div>
+    </body>
+</html>
